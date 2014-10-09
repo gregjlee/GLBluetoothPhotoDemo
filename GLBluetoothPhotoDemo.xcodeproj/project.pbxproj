@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1BEB04319E6671500FDBAEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BEB04219E6671500FDBAEA /* main.m */; };
+		C1BEB04619E6671500FDBAEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BEB04519E6671500FDBAEA /* AppDelegate.m */; };
+		C1BEB04919E6671500FDBAEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BEB04819E6671500FDBAEA /* ViewController.m */; };
+		C1BEB04C19E6671500FDBAEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1BEB04A19E6671500FDBAEA /* Main.storyboard */; };
+		C1BEB04E19E6671500FDBAEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1BEB04D19E6671500FDBAEA /* Images.xcassets */; };
+		C1BEB05119E6671500FDBAEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1BEB04F19E6671500FDBAEA /* LaunchScreen.xib */; };
+		C1BEB05D19E6671500FDBAEA /* GLBluetoothPhotoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BEB05C19E6671500FDBAEA /* GLBluetoothPhotoDemoTests.m */; };
+		C1BEB06819E6675B00FDBAEA /* GLCentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BEB06719E6675B00FDBAEA /* GLCentralViewController.m */; };
+		C1BEB06B19E6676E00FDBAEA /* GLPeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BEB06A19E6676E00FDBAEA /* GLPeripheralViewController.m */; };
+		C1BEB06D19E66A1000FDBAEA /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BEB06C19E66A1000FDBAEA /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1BEB05719E6671500FDBAEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1BEB03519E6671500FDBAEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1BEB03C19E6671500FDBAEA;
+			remoteInfo = GLBluetoothPhotoDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1BEB03D19E6671500FDBAEA /* GLBluetoothPhotoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLBluetoothPhotoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BEB04119E6671500FDBAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BEB04219E6671500FDBAEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1BEB04419E6671500FDBAEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1BEB04519E6671500FDBAEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1BEB04719E6671500FDBAEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1BEB04819E6671500FDBAEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1BEB04B19E6671500FDBAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1BEB04D19E6671500FDBAEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C1BEB05019E6671500FDBAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C1BEB05619E6671500FDBAEA /* GLBluetoothPhotoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLBluetoothPhotoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BEB05B19E6671500FDBAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BEB05C19E6671500FDBAEA /* GLBluetoothPhotoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLBluetoothPhotoDemoTests.m; sourceTree = "<group>"; };
+		C1BEB06619E6675B00FDBAEA /* GLCentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLCentralViewController.h; sourceTree = "<group>"; };
+		C1BEB06719E6675B00FDBAEA /* GLCentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLCentralViewController.m; sourceTree = "<group>"; };
+		C1BEB06919E6676E00FDBAEA /* GLPeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLPeripheralViewController.h; sourceTree = "<group>"; };
+		C1BEB06A19E6676E00FDBAEA /* GLPeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLPeripheralViewController.m; sourceTree = "<group>"; };
+		C1BEB06C19E66A1000FDBAEA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		C1BEB06E19E66A2900FDBAEA /* BTLECentralViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BTLECentralViewController.h; path = "../../../../Downloads/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.h"; sourceTree = "<group>"; };
+		C1BEB06F19E66A2A00FDBAEA /* BTLECentralViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BTLECentralViewController.m; path = "../../../../Downloads/BTLE_Transfer/BTLE Transfer/BTLECentralViewController.m"; sourceTree = "<group>"; };
+		C1BEB07019E66A2A00FDBAEA /* BTLEPeripheralViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BTLEPeripheralViewController.h; path = "../../../../Downloads/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.h"; sourceTree = "<group>"; };
+		C1BEB07119E66A2A00FDBAEA /* BTLEPeripheralViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BTLEPeripheralViewController.m; path = "../../../../Downloads/BTLE_Transfer/BTLE Transfer/BTLEPeripheralViewController.m"; sourceTree = "<group>"; };
+		C1BEB07319E66A9600FDBAEA /* GLTransferService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLTransferService.h; sourceTree = "<group>"; };
+		C1BEB07419E66EC000FDBAEA /* WSRLLPhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WSRLLPhotosViewController.m; path = ../../wsrlandlords/WSRLandlords/Controller/Photos/WSRLLPhotosViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1BEB03A19E6671500FDBAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BEB06D19E66A1000FDBAEA /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BEB05319E6671500FDBAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1BEB03419E6671500FDBAEA = {
+			isa = PBXGroup;
+			children = (
+				C1BEB06C19E66A1000FDBAEA /* CoreBluetooth.framework */,
+				C1BEB03F19E6671500FDBAEA /* GLBluetoothPhotoDemo */,
+				C1BEB05919E6671500FDBAEA /* GLBluetoothPhotoDemoTests */,
+				C1BEB03E19E6671500FDBAEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1BEB03E19E6671500FDBAEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1BEB03D19E6671500FDBAEA /* GLBluetoothPhotoDemo.app */,
+				C1BEB05619E6671500FDBAEA /* GLBluetoothPhotoDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1BEB03F19E6671500FDBAEA /* GLBluetoothPhotoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C1BEB04419E6671500FDBAEA /* AppDelegate.h */,
+				C1BEB04519E6671500FDBAEA /* AppDelegate.m */,
+				C1BEB07319E66A9600FDBAEA /* GLTransferService.h */,
+				C1BEB06E19E66A2900FDBAEA /* BTLECentralViewController.h */,
+				C1BEB06F19E66A2A00FDBAEA /* BTLECentralViewController.m */,
+				C1BEB07019E66A2A00FDBAEA /* BTLEPeripheralViewController.h */,
+				C1BEB07119E66A2A00FDBAEA /* BTLEPeripheralViewController.m */,
+				C1BEB06919E6676E00FDBAEA /* GLPeripheralViewController.h */,
+				C1BEB06A19E6676E00FDBAEA /* GLPeripheralViewController.m */,
+				C1BEB06619E6675B00FDBAEA /* GLCentralViewController.h */,
+				C1BEB06719E6675B00FDBAEA /* GLCentralViewController.m */,
+				C1BEB07419E66EC000FDBAEA /* WSRLLPhotosViewController.m */,
+				C1BEB04719E6671500FDBAEA /* ViewController.h */,
+				C1BEB04819E6671500FDBAEA /* ViewController.m */,
+				C1BEB04A19E6671500FDBAEA /* Main.storyboard */,
+				C1BEB04D19E6671500FDBAEA /* Images.xcassets */,
+				C1BEB04F19E6671500FDBAEA /* LaunchScreen.xib */,
+				C1BEB04019E6671500FDBAEA /* Supporting Files */,
+			);
+			path = GLBluetoothPhotoDemo;
+			sourceTree = "<group>";
+		};
+		C1BEB04019E6671500FDBAEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1BEB04119E6671500FDBAEA /* Info.plist */,
+				C1BEB04219E6671500FDBAEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1BEB05919E6671500FDBAEA /* GLBluetoothPhotoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1BEB05C19E6671500FDBAEA /* GLBluetoothPhotoDemoTests.m */,
+				C1BEB05A19E6671500FDBAEA /* Supporting Files */,
+			);
+			path = GLBluetoothPhotoDemoTests;
+			sourceTree = "<group>";
+		};
+		C1BEB05A19E6671500FDBAEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1BEB05B19E6671500FDBAEA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1BEB03C19E6671500FDBAEA /* GLBluetoothPhotoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BEB06019E6671500FDBAEA /* Build configuration list for PBXNativeTarget "GLBluetoothPhotoDemo" */;
+			buildPhases = (
+				C1BEB03919E6671500FDBAEA /* Sources */,
+				C1BEB03A19E6671500FDBAEA /* Frameworks */,
+				C1BEB03B19E6671500FDBAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLBluetoothPhotoDemo;
+			productName = GLBluetoothPhotoDemo;
+			productReference = C1BEB03D19E6671500FDBAEA /* GLBluetoothPhotoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1BEB05519E6671500FDBAEA /* GLBluetoothPhotoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BEB06319E6671500FDBAEA /* Build configuration list for PBXNativeTarget "GLBluetoothPhotoDemoTests" */;
+			buildPhases = (
+				C1BEB05219E6671500FDBAEA /* Sources */,
+				C1BEB05319E6671500FDBAEA /* Frameworks */,
+				C1BEB05419E6671500FDBAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1BEB05819E6671500FDBAEA /* PBXTargetDependency */,
+			);
+			name = GLBluetoothPhotoDemoTests;
+			productName = GLBluetoothPhotoDemoTests;
+			productReference = C1BEB05619E6671500FDBAEA /* GLBluetoothPhotoDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1BEB03519E6671500FDBAEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Greg;
+				TargetAttributes = {
+					C1BEB03C19E6671500FDBAEA = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C1BEB05519E6671500FDBAEA = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C1BEB03C19E6671500FDBAEA;
+					};
+				};
+			};
+			buildConfigurationList = C1BEB03819E6671500FDBAEA /* Build configuration list for PBXProject "GLBluetoothPhotoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1BEB03419E6671500FDBAEA;
+			productRefGroup = C1BEB03E19E6671500FDBAEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1BEB03C19E6671500FDBAEA /* GLBluetoothPhotoDemo */,
+				C1BEB05519E6671500FDBAEA /* GLBluetoothPhotoDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1BEB03B19E6671500FDBAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BEB04C19E6671500FDBAEA /* Main.storyboard in Resources */,
+				C1BEB05119E6671500FDBAEA /* LaunchScreen.xib in Resources */,
+				C1BEB04E19E6671500FDBAEA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BEB05419E6671500FDBAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1BEB03919E6671500FDBAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BEB06B19E6676E00FDBAEA /* GLPeripheralViewController.m in Sources */,
+				C1BEB04919E6671500FDBAEA /* ViewController.m in Sources */,
+				C1BEB04619E6671500FDBAEA /* AppDelegate.m in Sources */,
+				C1BEB04319E6671500FDBAEA /* main.m in Sources */,
+				C1BEB06819E6675B00FDBAEA /* GLCentralViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BEB05219E6671500FDBAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1BEB05D19E6671500FDBAEA /* GLBluetoothPhotoDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1BEB05819E6671500FDBAEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1BEB03C19E6671500FDBAEA /* GLBluetoothPhotoDemo */;
+			targetProxy = C1BEB05719E6671500FDBAEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1BEB04A19E6671500FDBAEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1BEB04B19E6671500FDBAEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1BEB04F19E6671500FDBAEA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1BEB05019E6671500FDBAEA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1BEB05E19E6671500FDBAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1BEB05F19E6671500FDBAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1BEB06119E6671500FDBAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GLBluetoothPhotoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C1BEB06219E6671500FDBAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GLBluetoothPhotoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C1BEB06419E6671500FDBAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GLBluetoothPhotoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLBluetoothPhotoDemo.app/GLBluetoothPhotoDemo";
+			};
+			name = Debug;
+		};
+		C1BEB06519E6671500FDBAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GLBluetoothPhotoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLBluetoothPhotoDemo.app/GLBluetoothPhotoDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1BEB03819E6671500FDBAEA /* Build configuration list for PBXProject "GLBluetoothPhotoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BEB05E19E6671500FDBAEA /* Debug */,
+				C1BEB05F19E6671500FDBAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BEB06019E6671500FDBAEA /* Build configuration list for PBXNativeTarget "GLBluetoothPhotoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BEB06119E6671500FDBAEA /* Debug */,
+				C1BEB06219E6671500FDBAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C1BEB06319E6671500FDBAEA /* Build configuration list for PBXNativeTarget "GLBluetoothPhotoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1BEB06419E6671500FDBAEA /* Debug */,
+				C1BEB06519E6671500FDBAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1BEB03519E6671500FDBAEA /* Project object */;
+}
